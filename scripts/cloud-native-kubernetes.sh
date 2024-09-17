@@ -59,7 +59,7 @@ minikube start --driver=docker
 if [ $? -eq 0 ]; then
     echo "Minikube wurde erfolgreich gestartet!"
 else
-    echo "Minikube Start fehlgeschlagen."
+    echo "Minikube Start fehlgeschlagen. Überprüfe ob der Benutzer in 'docker' Gruppe hinzugefügt werden müssen. Wenn Ja, dann `sudo usermod -aG docker $USER && newgrp docker` Befehl laufen lassen."
     exit 1
 fi
 
