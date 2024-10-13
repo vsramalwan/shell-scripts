@@ -2,10 +2,10 @@
 
 ## List of scripts
 
-- [ckad-bashrc](./scripts/ckad-bashrc.sh)
+- [k8s-bashrc](./scripts/k8s-bashrc.sh)
 
 ```bash
-wget -O - https://raw.githubusercontent.com/vsramalwan/shell-scripts/refs/heads/main/scripts/ckad-bashrc.sh >> ~/.bashrc && source ~/.bashrc
+wget -O - https://raw.githubusercontent.com/vsramalwan/shell-scripts/refs/heads/main/scripts/k8s-bashrc.sh >> ~/.bashrc && source ~/.bashrc
 ```
 
 - [install-kubeadm-debian](./scripts/install-kubeadm-debian.sh)
