@@ -3,7 +3,7 @@
 Running a script:
 
 ```bash
-wget -O - <https://raw.githubusercontent.com/vsramalwan/shell-scripts/refs/heads/main/scripts/install-kubeadm-debian.sh> | bash
+wget -O - https://raw.githubusercontent.com/vsramalwan/shell-scripts/refs/heads/main/scripts/install-kubeadm-debian.sh | bash
 ```
 
 ## List of scripts
