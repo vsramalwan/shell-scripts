@@ -1,4 +1,5 @@
 #!/bin/bash
+# courtesy: gpt
 
 # Überprüfen, ob das Skript als root oder mit sudo ausgeführt wird
 if [ "$EUID" -ne 0 ]; then
