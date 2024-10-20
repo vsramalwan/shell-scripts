@@ -6,6 +6,7 @@ alias kgp="kubectl get pod"
 alias kgd="kubectl get deploy"
 alias kgs="kubectl get svc"
 alias kgn="kubectl get nodes"
+alias kdp="kubectl delete pod --grace-period 0 --force"
 
 # Enable auto completion
 source <(kubectl completion bash)
