@@ -26,3 +26,4 @@ export drs="--dry-run=server -oyaml"
 # kubectl shortcuts
 # k api-resources
 # k explain <command>
+# k replace --force -f /tmp/kubectl-edit-67890789.yml
